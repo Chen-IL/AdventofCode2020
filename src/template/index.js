@@ -2,7 +2,8 @@ const { test, readInput } = require("../utils")
 
 const prepareInput = (rawInput) => rawInput
 
-const input = prepareInput(readInput())
+const input = prepareInput(readInput("input.txt"))
+const testInput = prepareInput(readInput("test.txt"))
 
 const goA = (input) => {
   return
